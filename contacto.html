@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <nav>
+            <a href="index.html" title="inicio">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="productos.html">Productos</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="https://www.educacionit.com/" target="_blank">EducacionIt</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Formulario de contacto:</h2>
+        <!--
+            get: datos por la url
+            post: datos invisibles
+        -->
+        <form action="enviar.php" method="post">
+            <label for="nombre">Nombre</label><br>
+            <input type="text" name="nombre" id="nombre" required maxlength="30" placeholder="Ej. Juan"><br>
+            <label for="whatsapp">whatsapp</label><br>
+            <input type="number" name="whatsapp" id="whatsapp"><br>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email"><br>
+            <label for="mensaje">Mensaje</label><br>
+            <textarea name="mensaje" id="mensaje"></textarea><br><br>
+            <input type="submit" value="Enviar contacto" style="background-color: rgb(128, 26, 0); width: 41%;height: 45px;color: #ffffff;font-weight: bold;">
+
+        </form>
+        <br><br>
+        <h3>Iframe Google Map</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.322901615798!2d-58.383003879907236!3d-34.60212016416648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x568d6d5f7f1f535d!2sEducaci%C3%B3nIT!5e0!3m2!1ses-419!2sar!4v1607782947719!5m2!1ses-419!2sar" width="100%" height="250" frameborder="0" style="border:2px dotted red" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+        <h3>Iframe youtube</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/a5fHoAx12DY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <h3>Vídeo con html5</h3>
+        <video controls width="20%" height="100px">
+            <source src="video.mp4" type="video/mp4"> 
+        </video>
+        
+        <h3>Audio con html5</h3>
+        <audio controls>
+            <source src="https://scummbar.com/mi2/DOTT/03%20-%20Busting%20The%20Candy%20Machine.mp3" type="audio/mp3">
+        </audio>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+p{
+    
+    
+  }
+body{
+      background-color: rgb(79, 119, 131);
+      font-family: 'Sansita Swashed', cursive;
+  }
+h1{
+  font-size: 50px;/*1 em= 16px*/
+  color: rgb(165, 78, 93);
+}
+a{
+  background-color: lightcoral;
+  color: rgb(79, 119, 131);
+  text-decoration: none;/*quitar el subrayado - underline*/
+  /*padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding: 10px 5px 10px 5px;*//*left top right bottom*/
+  padding: 10px 15px;/*top bottom y a los lados*/
+  /*padding: 10px;*/
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+}
+a:hover{/*active, visited, link*/
+  background-color:rgb(1, 16, 20);
+  color:  lightcoral;
+
+}
+a:active{
+  background-color: yellowgreen;
+}
+input{
+  width: 40%;
+  height: 35px;
+}
+textarea{
+  width: 40%;
+  height: 80px;
+}
